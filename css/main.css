@@ -1,0 +1,48 @@
+body {
+    background-color: #24353F;
+}
+#card{
+    background-color: #24353F !important;
+    border: none !important;
+    border-radius: 5px !important;
+    width: 80% !important;
+}
+.navbar{
+    background-color: #24353F;
+}
+h1{
+    font-size: 52px;
+    font-weight: 600;
+}
+ p {
+    color: #fff;
+}
+ p a{
+    text-decoration: none;
+    color: #FFC436;
+
+}
+ p a:hover{
+    text-decoration: underline;
+}
+
+
+input{
+    background-color: transparent;
+    color: #fff !important;
+    border-style: none;
+    border: 1px solid #c6c2c2;
+    border-radius: 5px;
+    padding: 5px;
+
+}
+
+input:focus{
+    outline: none;
+    border:1px solid #FFC436;;
+}
+
+input::placeholder{
+    color: #c6c2c2;
+
+}
